@@ -72,11 +72,11 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'django',
-        'USER': 'postgres',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',  # Replace with your PostgreSQL server's address if necessary
-        'PORT': '5432',          # Leave empty to use the default PostgreSQL port (usually 5432)
+        'NAME': 'db_name',
+        'USER': 'db_user',
+        'PASSWORD': 'db_password', # i won't add my databases information on github :)
+        'HOST': 'db_host',  # Replace with your PostgreSQL server's address if necessary
+        'PORT': 'db_prot',          # Leave empty to use the default PostgreSQL port (usually 5432)
     }
 }
 
